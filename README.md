@@ -6,6 +6,7 @@ Yuefei Wang*, Yutong Zhang, Li Zhang, Yuquan Xu, Ronghui Feng, Haoyue Cai, Zuwei
 
 # 1. Architecture Overview 
 ![image](https://github.com/YF-W/MBP-SSNet/assets/66008255/a136bfcf-7ed9-4523-8f52-eb40a93096ff)
+
 MBP-SSNet is an innovative multi-branch encoder-decoder network designed to address the balance and feature extraction limitations in traditional networks during semantic information processing. The main branch assimilates global ViT encoding and ResNet structures, utilizing MPBFE to construct continuous network blocks, exploiting the "local + global" perspective of large-kernel convolutions. Multiple bottlenecks receive information from different semantic depths, achieving "batch-wise, layer-wise" feature absorption. The decoding process adopts a progressive feature fusion approach, departing from the traditional parallelism of multi-branch decoders. A fine-tuning module is introduced at the network's tail to address edge artifacts and enhance segmentation performance for small-scale objects.
 
 # 2. Comparison chart between traditional u-decode and multi-head decode
@@ -13,6 +14,7 @@ MBP-SSNet is an innovative multi-branch encoder-decoder network designed to addr
 
 # 3. Traditional multi-branch baseline and our network baseline
 ![image](https://github.com/YF-W/MBP-SSNet/assets/66008255/6b6df667-45f6-490e-b92b-e74ee6eeb91c)
+
 In response to the limited semantic information capacity of traditional U-shaped single encoder-decoder architectures, we propose an innovative multi-branch encoder-decoder network named MB-PPFG. In contrast to the conventional triple encoder-single decoder structure, MB-PPFG incorporates three bottlenecks at different semantic depths, dispersing enriched semantic information for multi-level information preservation. Additionally, a Progressive Propulsion Feature Guidance mechanism is introduced in the decoder to progressively fuse semantics from different depths. This design demonstrates enhanced accuracy and efficiency in medical image processing.
 
 # 4. Module 1：MPBFE
