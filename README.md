@@ -2,7 +2,7 @@
 Lesion segmentation in medical images presents challenges, including limitations in data processing at the decoding end and insufficient long-distance information dependency at the encoding-decoding intersection. Traditional networks often perform semantic transmission at the deepest layers, leading to a single channel for expressing rich semantic information. Additionally, the encoding-decoding intersection lacks dependency on long-distance information, especially when dealing with deep semantic and small-sized, multi-channel medical images using small-kernel convolutions, which may overlook concealed lesions. Similarly, the decoding end lacks dependency on short-distance information, often neglected in network layouts, yet crucial for fine-tuning at the final image enlargement stage and addressing key points in lesions.
 
 # Paper:MBP-SSNet（Multi-Bottleneck Progressive Semantic Segmentation Network）
-Yuefei Wanga,*, Yutong Zhanga, Li Zhanga, Yuquan Xub, Ronghui Fengb, Haoyue Caib, Zuwei Zhaob, Jiajing Xueb, Zixu Wangb, Siyi Qiua, Yixi Yangc, Xi Yub
+Yuefei Wang,*, Yutong Zhang, Li Zhang, Yuquan Xu, Ronghui Feng, Haoyue Cai, Zuwei Zhao, Jiajing Xue, Zixu Wang, Siyi Qiu, Yixi Yang, Xi Yu
 
 # 1. Architecture Overview 
 ![image](https://github.com/YF-W/MBP-SSNet/assets/66008255/a136bfcf-7ed9-4523-8f52-eb40a93096ff)
