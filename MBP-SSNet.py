@@ -10,6 +10,7 @@ import torch
 """Proposed By Yutong Zhang, Dr. Wang Yuefei"""
 """CHENGDU UNIVERSITY"""
 """2024.1"""
+"""For research and clinical study only, commercial use is strictly prohibited"""
 
 
 
