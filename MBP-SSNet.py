@@ -6,6 +6,12 @@ from torchvision import models as resnet_model
 import torch.fft
 import torch
 
+"""Multi-Bottleneck Progressive Semantic Segmentation Network (MBPSSNet)"""
+"""Proposed By Yutong Zhang, Dr. Wang Yuefei"""
+"""CHENGDU UNIVERSITY"""
+"""2024.1"""
+
+
 
 class DilatedConv3(nn.Module):
     def __init__(self, in_channels, out_channels):
