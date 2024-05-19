@@ -1,6 +1,5 @@
 # Multi-Bottleneck Progressive Semantic Segmentation
 https://www.sciencedirect.com/science/article/abs/pii/S0957417424010455
-![image](https://github.com/YF-W/MBP-SSNet/assets/66008255/8fd66f31-1700-49fe-9fe2-000fa8f2178b)
 
 ***Lesion segmentation in medical images presents challenges, including limitations in data processing at the decoding end and insufficient long-distance information dependency at the encoding-decoding intersection. Traditional networks often perform semantic transmission at the deepest layers, leading to a single channel for expressing rich semantic information. Additionally, the encoding-decoding intersection lacks dependency on long-distance information, especially when dealing with deep semantic and small-sized, multi-channel medical images using small-kernel convolutions, which may overlook concealed lesions. Similarly, the decoding end lacks dependency on short-distance information, often neglected in network layouts, yet crucial for fine-tuning at the final image enlargement stage and addressing key points in lesions.***
 
